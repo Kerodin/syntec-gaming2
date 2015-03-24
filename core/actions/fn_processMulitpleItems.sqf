@@ -27,9 +27,9 @@ life_is_processing = true;
 //define your production line here
 _productionInfo = switch (_type) do
 {
-	case "bier": {[["hopfenu","hefeu"],[1,1],"bier",1,"civ",5000];}; //Bier
+	case "bier": {[["hopfenp","hefep"],[1,1],"bier",1,"civ",5000];}; //Bier
 	case "bierflasche": {[["bier","glasflasche"],[1,1],"falschenbier",1,"civ",5000];}; //Bierflasche
-	case "whiskey": {[["roggenu","hefeu"],[1,1],"whiskey",1,"civ",5000];}; // Whiskey
+	case "whiskey": {[["roggenp","hefep"],[1,1],"whiskey",1,"civ",5000];}; // Whiskey
 	case "whiskeyflasche": {[["whiskey","glasflasche"],[1,1],"whiskeyflasche",1,"civ",5000];}; // Whiskey
 	default {[]};
 };
