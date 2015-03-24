@@ -7,7 +7,7 @@ this enableSimulation false; this allowDamage false; this addAction["Hopfen Vera
 
 Roggen Prozessor
 
-this enableSimulation false; this allowDamage false; this addAction["Roggen VerarbeitensAction,"roggen",0,false,false,"",' life_inv_roggenu > 0 && !life_is_processing'];this addAction["roggen Lizenz ($30000)",life_fnc_buyLicense,"roggen",0,false,false,"",' !license_civ_roggen && playerSide == civilian '];
+this enableSimulation false; this allowDamage false; this addAction["Roggen Verarbeiten"life_fnc_processAction,"roggen",0,false,false,"",' life_inv_roggenu > 0 && !life_is_processing'];this addAction["roggen Lizenz ($30000)",life_fnc_buyLicense,"roggen",0,false,false,"",' !license_civ_roggen && playerSide == civilian '];
 
 
 Hefe Prozessor
